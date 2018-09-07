@@ -36,8 +36,8 @@ then
 fi
 
 SCRIPTS_DIR="$OUTPUT/scripts"
-GITHUB_BASE_URL="https://raw.githubusercontent.com/bitwarden/core/master"
-COREVERSION="1.23.0"
+GITHUB_BASE_URL="https://raw.githubusercontent.com/chunkmonk/core/master"
+COREVERSION="1.23.0-cracked"
 WEBVERSION="2.2.0"
 
 # Functions
