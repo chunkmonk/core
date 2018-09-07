@@ -114,7 +114,7 @@ function dockerComposeDown() {
 
 function dockerComposePull() {
     dockerComposeFiles
-    docker-compose pull
+    echo "Skipping docker-compose pull"
 }
 
 function dockerComposeFiles() {
@@ -175,7 +175,7 @@ function restart() {
 }
 
 function pullSetup() {
-    docker pull bitwarden/setup:$COREVERSION
+    echo "Skipping docker pull bitwarden/setup:$COREVERSION"
 }
 
 # Commands
